@@ -1,0 +1,75 @@
+body{
+    background-color: #26F0F1;
+    /*
+        background-color: 1E212B; preto 
+        background-color: 6E8894; Cinza
+        background-color: EA526F; Vermelho
+        background-color: 82FF9E; Verde claro
+        background-color: A9FBC3; Verde fraco
+        background-color: #f5f5f5; Branco gelo
+        
+    */
+}
+
+div.Front h1{
+    text-align: center;
+    color: #1E212B;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+div.Front li{
+    font-family: 'Roboto Slab', serif;
+
+    background-color: #EA526F;
+    list-style: none;
+
+    border: 2px solid #1E212B;
+    border-radius: 8px;
+
+    height: 100px;
+
+    padding: 32px 24px 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+}
+
+div.Front h4{
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+div.Back h1{
+    text-align: center;
+    color: #1E212B;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+div.Back li{
+    font-family: 'Roboto Slab', serif;
+
+    background-color: #A9FBC3;
+    list-style: none;
+
+    border: 2px solid #6E8894;
+    border-radius: 8px;
+
+    height: 75px;
+
+    padding: 15px 24px 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+
+}
