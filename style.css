@@ -26,7 +26,7 @@ div.Front li{
     border: 2px solid #1E212B;
     border-radius: 8px;
 
-    height: 100px;
+    height: 150px;
 
     padding: 32px 24px 16px;
 
@@ -36,6 +36,11 @@ div.Front li{
     justify-content: space-between;
 
     text-align: center;
+}
+
+div.Front li button{
+    align-items: center;
+    background-color: #1BE7FF;
 }
 
 div.Front h4{
@@ -61,7 +66,7 @@ div.Back li{
     border: 2px solid #6E8894;
     border-radius: 8px;
 
-    height: 75px;
+    height: 90px;
 
     padding: 15px 24px 16px;
 
@@ -72,4 +77,9 @@ div.Back li{
 
     text-align: center;
 
+}
+
+div.Back li button{
+    align-items: center;
+    background-color: #1BE7FF;
 }
